@@ -3,7 +3,7 @@
     "author": "Ting Liu",
     "version" : "1.0",
     "manifest_version" : 2,
-    "description" : "Capture Tab and audio",
+    "description" : "论答网站屏幕录制插件",
     "homepage_url": "https://github.com/LiuTing0403/chrome-extension-tabcapture",
     "background": {
         "scripts": ["background.js"],
