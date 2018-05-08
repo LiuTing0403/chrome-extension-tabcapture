@@ -17,7 +17,7 @@ chrome.runtime.onConnect.addListener(function(port) {
     function onAccessApproved(chromeMediaSourceId, opts) {
         if (!chromeMediaSourceId || !chromeMediaSourceId.toString().length) {
             port.postMessage({message: MESSAGE.USER_CANCELED})
-            chrome.runtime.reload();
+            chrome.runtime.restart();
             return;
         }
 
